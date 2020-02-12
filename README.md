@@ -1,16 +1,12 @@
-# flag-icon-css
+# material-flag-icon-css
 
-> A collection of all country flags in SVG — plus the CSS for easier integration.
-> See the [demo](https://flagicons.lipis.dev).
+> A port of the flag-icon-css library to React Material UI
 
 ## Install
 
-You can either [download](https://github.com/lipis/flag-icon-css/archive/master.zip)
-the whole project as is or install it via Bower or NPM:
-
 ```bash
-$ bower install flag-icon-css
-$ npm install flag-icon-css
+$ yarn add material-flag-icon-css
+$ npm install material-flag-icon-css
 ```
 
 ## Usage
@@ -39,29 +35,6 @@ background-repeat: no-repeat;
 Which means that the flag is just going to appear in the middle of an element, so
 you will have to set manually the correct size of 4 by 3 ratio or if it's squared
 add also the `flag-icon-squared` class.
-
-## Development
-
-Run the `npm install` to install the dependencies after cloning the project and
-you'll be able to:
-
-To watch for changes and live reload if served
-
-```bash
-$ grunt
-```
-
-To build `*.less` files
-
-```bash
-$ grunt build
-```
-
-To serve it on `localhost:8000`
-
-```bash
-$ grunt connect
-```
 
 To have only specific countries in the css file, remove the ones that you don't
 need from the
